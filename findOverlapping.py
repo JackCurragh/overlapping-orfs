@@ -29,6 +29,7 @@ def max_consecutive(arr):
     
     return longest
 
+
 def get_stop_codon_locations(mrna_seq):
     '''
     Return a codon array of stop codon positions. One digit per codon
@@ -156,6 +157,7 @@ def find_longest_regions_from_fasta(file_path):
         # if len(results) > 2:
         #     return results
     return results
+
 
 def write_results_to_tsv(results, output_file):
     with open(output_file, "w") as f:
